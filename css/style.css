@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.f01{
+    width: 100%;
+    float: left;
+    background: #FFFBF0;
+}
+.f011{
+    background: transparent!important;
+}
+.f014{
+    width: 40%;
+    float: left;
+}
+.f019{
+    color: black!important;
+}
+.f017{
+    width: 60%!important;
+    float: right; 
+} 
+.f018{
+    color: black;
+    padding: 0px 15px!important;
+    font-weight: bold;
+}
+.f016{
+    width: 100%;
+    margin: 120px 0px;
+}
+.f012 h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 45px;
+    color: #FABE4C;
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+.f012 span{
+    color: black;
+}
+.f012 p{
+    font-size: 18px;
+}
+.f012-btn{
+    background: #90AA29;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.f012 i{
+    margin-right: 10px;
+}
+.f013{
+    margin-top: 60px;
+    position: relative;
+}
+.f015{
+    position: absolute;
+    margin-top: -5px;
+    display: flex;
+    bottom: 0px;
+}
+/* f01 end */
+/* f02 start */
+.f02{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+.f021 h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    margin: 40px 0px;
+}
+.f023{
+    background: #F1F1F1;
+    border-radius: 20px;
+    margin: 40px auto;
+    text-align: center;
+}
+.f023 img{
+    height: 400px;
+}
+.f024 h2{
+    margin-top: 20px;
+}
+.f024 p{
+    font-size: 15px;
+}
+.f027{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.f025 h2{
+    color: #FABE4C;
+    font-weight: bold;
+}
+.f026 i{
+    margin-right: 10px;
+}
+.f025-btn{
+    background: #90AA29;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+}
+/* f03 start */
+.f03{
+    width: 100%;
+    float: left;
+    padding: 100px 0px;
+}
+.f034{
+    box-shadow: 2px 5px 10px silver;
+    margin: 30px 0px;
+}
+.f031{
+    padding: 10px 0px 10px 20px;
+}
+.f032 h2{
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.f032 p{
+    font-size: 15px;
+}
+.f035{
+    margin-top: 150px;
+}
+/* f03 end */
+
+
+
+
+/* media query */
+/* mobile device */
+@media (min-width: 320px) and (max-width: 500px){
+    /* f01 start */
+    .f014{
+        width: 60%;
+    }
+    .f016{
+        width: 100%;
+        margin: 50px 0px;
+    }
+    .f012 h2{
+        font-size: 50px;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .f012 span{
+        color: black;
+    }
+    .f012 p{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .f012-btn{
+        margin: 0 auto;
+        display: block;
+    }
+    /* .f013{
+        margin-top: 80px;
+        position: relative;
+    }
+    .f015{
+        position: absolute;
+        top: -140px;
+    } */
+    /* f01 end */
+    /* f02 start */
+    .f021 h2{
+        margin: 20px auto;
+        text-align: center;
+    }
+    .f023{
+        margin: 40px auto;
+        text-align: center;
+    }
+    .f023 img{
+        height: 300px;
+    }
+    .f024 h2{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .f024 p{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 15px;
+    }.f025 h2{
+        text-align: center;
+        display: block;
+    }
+    .f025-btn{
+        margin: 0 auto;
+        display: block;
+        float: inherit;
+    }
+    /* f02 end */
+    .f03{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .f034{
+        margin: 50px 0px;
+    }
+    .f032 h2{
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .f032 p{
+        font-size: 15px;
+    }.f036{
+        flex-direction: column-reverse;
+    }.f035{
+        margin-top: 40px;
+    }
+    /* f03 end */
+}
+/* small device */
+@media (min-width: 501px) and (max-width: 768px){
+}
+/* mediam device */
+@media (min-width: 768.01px) and (max-width: 992px){
+}
+/* desktop device */
+@media (min-width: 992.01px) and (max-width: 1200px){
+}
+/* large device */
+@media (min-width: 1200.01px){
+}
